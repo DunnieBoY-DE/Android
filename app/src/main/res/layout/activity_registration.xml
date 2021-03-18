@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration"
+    android:background="@drawable/reg"
+    >
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:hint="Full Name "
+        android:ems="10"
+        android:textColorHint="@color/white"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@id/editTextTextPersonName"
+        android:textColorHint="@color/white"
+        android:inputType="textPersonName"
+        android:hint="Email" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:textColorHint="@color/white"
+        android:layout_below="@id/editTextTextPersonName2"
+        android:ems="10"
+        android:hint="Password"/>
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:textColorHint="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="phone" />
+    <EditText
+        android:layout_width="match_parent"
+        android:textColorHint="@color/white"
+        android:id="@+id/License"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPhone"
+        android:hint="License No"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:textColorHint="@color/white"
+        android:id="@+id/Carplateno"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/License"
+        android:hint="CAR PLATE NO"
+        android:inputType="text"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/horizon"
+        android:layout_below="@id/Carplateno"
+        android:layout_height="300dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/regbut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/horizon"
+        android:gravity="center"
+        android:text="@string/Regbutton"
+        android:backgroundTint="@color/teal_200"
+        tools:text="@string/Regbutton" />
+
+
+</RelativeLayout>

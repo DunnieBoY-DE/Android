@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SmartCarPark</string>
+    <string name="carname">Smart Car Park</string>
+    <string name="Username"></string>
+    <string name="Password"></string>
+    <string name="Button">Login</string>
+    <string name="signin">Sign Up</string>
+    <string name="FulName"></string>
+    <string name="Passwordreg"></string>
+    <string name="Regbutton">REGISTER</string>
+    <!--    <string name="Acountlink"></string>-->
+
+</resources>
