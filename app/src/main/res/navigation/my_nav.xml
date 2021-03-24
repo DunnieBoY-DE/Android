@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/firstFragment">
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.example.smartcarpark.SecondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" />
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="com.example.smartcarpark.ThirdFragment"
+        android:label="fragment_third"
+        tools:layout="@layout/fragment_third" />
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.example.smartcarpark.FirstFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_first" />
+    <fragment
+        android:id="@+id/fourthFragment"
+        android:name="com.example.smartcarpark.FourthFragment"
+        android:label="fragment_fourth"
+        tools:layout="@layout/fragment_fourth" />
+    <fragment
+        android:id="@+id/fifthFragment"
+        android:name="com.example.smartcarpark.FifthFragment"
+        android:label="fragment_fifth"
+        tools:layout="@layout/fragment_fifth" />
+    <fragment
+        android:id="@+id/sixthFragment"
+        android:name="com.example.smartcarpark.SixthFragment"
+        android:label="fragment_sixth"
+        tools:layout="@layout/fragment_sixth" />
+    <fragment
+        android:id="@+id/seventhFragment"
+        android:name="com.example.smartcarpark.SeventhFragment"
+        android:label="fragment_seventh"
+        tools:layout="@layout/fragment_seventh" />
+    <fragment
+        android:id="@+id/eigthFragment"
+        android:name="com.example.smartcarpark.EigthFragment"
+        android:label="fragment_eigth"
+        tools:layout="@layout/fragment_eigth" />
+</navigation>

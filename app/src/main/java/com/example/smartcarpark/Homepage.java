@@ -7,11 +7,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Homepage extends AppCompatActivity {
+import com.example.smartcarpark.databinding.ActivityHomepageBinding;
 
+public class Homepage extends AppCompatActivity {
+//ActivityHomepageBinding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_homepage);
+//        binding =ActivityHomepageBinding.inflate(getLayoutInflater());
+//        setContentView(binding.getRoot());
+//        getSupportFragmentManager()
+//                .beginTransaction()
+//                .replace(R.id.fragment,new  )
     }
 }
