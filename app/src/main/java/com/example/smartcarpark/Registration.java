@@ -17,7 +17,7 @@ public class Registration extends AppCompatActivity {
         Button Register = (Button)findViewById(R.id.regbut);
         Register.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v) {
-                Intent intentRegister = new Intent(Registration.this, Homepage.class);
+                Intent intentRegister = new Intent(Registration.this, MainActivity.class);
                 startActivity(intentRegister);
             }
         });
