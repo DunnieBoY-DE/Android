@@ -24,24 +24,4 @@
         android:name="com.example.smartcarpark.FourthFragment"
         android:label="fragment_fourth"
         tools:layout="@layout/fragment_fourth" />
-    <fragment
-        android:id="@+id/fifthFragment"
-        android:name="com.example.smartcarpark.FifthFragment"
-        android:label="fragment_fifth"
-        tools:layout="@layout/fragment_fifth" />
-    <fragment
-        android:id="@+id/sixthFragment"
-        android:name="com.example.smartcarpark.SixthFragment"
-        android:label="fragment_sixth"
-        tools:layout="@layout/fragment_sixth" />
-    <fragment
-        android:id="@+id/seventhFragment"
-        android:name="com.example.smartcarpark.SeventhFragment"
-        android:label="fragment_seventh"
-        tools:layout="@layout/fragment_seventh" />
-    <fragment
-        android:id="@+id/eigthFragment"
-        android:name="com.example.smartcarpark.EigthFragment"
-        android:label="fragment_eigth"
-        tools:layout="@layout/fragment_eigth" />
 </navigation>
