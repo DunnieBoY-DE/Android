@@ -1,6 +1,7 @@
 package com.example.smartcarpark;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +10,9 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
+
+    public static void openDrawer(DrawerLayout drawerLayout) {
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
