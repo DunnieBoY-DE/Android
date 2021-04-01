@@ -21,13 +21,6 @@
         android:background="@color/black"
         tools:text="@string/carname" />
 
-<!--    <ImageView-->
-<!--        android:id="@+id/imageView"-->
-<!--        android:layout_width="100dp"-->
-<!--        android:layout_height="97dp"-->
-<!--        android:layout_gravity="center"-->
-<!--        app:srcCompat="@drawable/login" />-->
-
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="match_parent"
