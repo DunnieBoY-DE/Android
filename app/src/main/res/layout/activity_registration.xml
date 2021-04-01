@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
     android:layout_height="match_parent"
     tools:context=".Registration"
     android:background="@drawable/reg"
@@ -12,7 +14,9 @@
         android:id="@+id/editTextTextPersonName"
         android:layout_width="match_parent"
         android:hint="Full Name "
+        android:drawableStart="@drawable/ic_baseline_person_24"
         android:ems="10"
+        android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:layout_height="wrap_content"
         />
@@ -21,6 +25,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:textColor="@color/white"
+        android:drawableStart="@drawable/ic_baseline_email_24"
         android:layout_below="@id/editTextTextPersonName"
         android:textColorHint="@color/white"
         android:inputType="textPersonName"
@@ -28,7 +34,9 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_baseline_person_24"
         android:id="@+id/password"
+        android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:layout_below="@id/editTextTextPersonName2"
         android:ems="10"
@@ -39,7 +47,9 @@
         android:layout_width="match_parent"
         android:textColorHint="@color/white"
         android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_baseline_local_phone_24"
         android:layout_below="@id/password"
+        android:textColor="@color/white"
         android:ems="10"
         android:hint="Phone"
         android:inputType="phone" />
@@ -47,6 +57,8 @@
         android:layout_width="match_parent"
         android:textColorHint="@color/white"
         android:id="@+id/License"
+        android:textColor="@color/white"
+        android:drawableStart="@drawable/ic_baseline_payment_24"
         android:layout_height="wrap_content"
         android:layout_below="@id/editTextPhone"
         android:hint="License No"
@@ -55,31 +67,27 @@
     <EditText
         android:layout_width="match_parent"
         android:textColorHint="@color/white"
+        android:textColor="@color/white"
         android:id="@+id/Carplateno"
         android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_baseline_directions_car_24"
         android:layout_below="@id/License"
         android:hint="CAR PLATE NO"
         android:inputType="text"
         />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:id="@+id/horizon"
-        android:layout_below="@id/Carplateno"
-        android:layout_height="300dp"
-        android:orientation="horizontal">
-
-    </LinearLayout>
 
     <Button
         android:id="@+id/regbut"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/horizon"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
         android:gravity="center"
         android:text="@string/Regbutton"
-        android:backgroundTint="@color/teal_200"
+        android:background="@drawable/round_button"
         tools:text="@string/Regbutton" />
 
 
-</RelativeLayout>
+</LinearLayout>

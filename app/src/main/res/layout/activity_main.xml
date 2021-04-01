@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-   android:background="@drawable/car"
+    android:padding="30dp"
+    android:background="@drawable/car"
     tools:context=".MainActivity" >
 
     <TextView
@@ -34,7 +35,8 @@
         android:autofillHints=""
         android:ems="10"
         android:textColor="@color/white"
-        android:layout_marginTop="30dp"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:layout_marginTop="70dp"
         android:hint="Username"
         android:textColorHint="@color/white"
         android:inputType="textPersonName"
@@ -44,6 +46,7 @@
         android:id="@+id/editTextTextPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
         android:ems="10"
         android:textColor="@color/white"
         android:layout_marginTop="30dp"
@@ -54,21 +57,24 @@
 
     <Button
         android:id="@+id/bookbtn"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/round_button"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="30dp"
-        android:backgroundTint="@color/teal_200"
         android:text="@string/Button"
         android:textAlignment="center" />
 
     <Button
         android:id="@+id/signin"
-        android:layout_width="wrap_content"
-        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:backgroundTint="@color/teal_200"
         android:text="@string/signin" />
 
 
